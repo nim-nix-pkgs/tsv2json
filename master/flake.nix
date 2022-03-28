@@ -11,7 +11,6 @@
   inputs.src-tsv2json-master.ref   = "refs/heads/master";
   inputs.src-tsv2json-master.owner = "hectormonacci";
   inputs.src-tsv2json-master.repo  = "tsv2json";
-  inputs.src-tsv2json-master.dir   = "";
   inputs.src-tsv2json-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
